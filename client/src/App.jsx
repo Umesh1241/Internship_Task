@@ -6,7 +6,6 @@ import Register from './pages/Register';
 import Home from './pages/Home';
 import CreateEmployee from './pages/CreateEmployee';
 import UpdateEmployee from './pages/UpdateEmployee';
-import DeleteEmployee from './pages/DeleteEmployee';
 import Errorpage from './pages/Errorpage';
 import Logout from './pages/Logout';
 import Landing from "./pages/Landing";
@@ -30,7 +29,6 @@ const App = () => {
           <Route path="/register" element={<Register />} />
           <Route path="/createEmployee" element={<CreateEmployee />} />
           <Route path="/updateEmployee/:id" element={<UpdateEmployee />} />
-          <Route path="/deleteEmployee/:id" element={<DeleteEmployee />} />
           <Route path="/logout" element={<Logout />} />
           <Route path="*" element={<Errorpage />} />
         </Routes>
